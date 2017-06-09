@@ -1,0 +1,29 @@
+总体的标准差 standard deviation (miu)
+
+样本均值分布（抽样分布sampling distribution）的标准差 standard deviation of the distibution of sample means (SE)
+
+两者的比率: MIU / SE = 样本量的平方根   the square root of the sample size
+
+对于均值分布，每个均值都是样本量为n的均值
+
+中心极限定理（CENTRAL LIMIT THEOREM）
+1、The distribution of sample means is approximatedly normal
+2、The standard deviation of the sample means 标准偏差 等于 总体标准偏差 除以 样本量的平方根
+3、The means of the sample means 约等于 miu(总体平均值）
+
+（1）总体可以是任何形状
+（2）从中抽取一个样本并计算出均值
+（3）重复（2）100次
+（4）画出均值分布图，该形状会是相对正态
+（5）其中标准偏差 等于 总体标准偏差 除以 样本量的平方根
+（6）SE -> standard error 标准误差
+
+抽样分布的Mean与总体的Mean一致
+
+样本量n增大，抽样分布的形状会变窄
+
+
+对于样本均值分布，根据中心极限定理可以得出
+□ 分布的预测形状
+□ 分布的预期均值
+□ 分布的标准偏差（标准误差）
