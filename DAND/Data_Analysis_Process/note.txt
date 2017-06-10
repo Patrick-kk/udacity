@@ -1,0 +1,46 @@
+数据分析过程 Data Analysis Process
+
+在编写复杂算法之前，需要先熟悉数据
+
+1、提问 Question (a quesiont you want to answer or a problem you want to solve)
+
+2、数据再加工 Wrangle
+
+（1）数据采集 Data Acquisition
+针对待回答或解决的问题来采集相关数据
+
+（2）数据清理 Data Cleaning
+研究数据，并处理遇到的问题
+
+3、数据探索 Explore
+（1）培养直觉 Build intuition
+（2）找出数据模式 Find patterns
+
+4、总结或预测 Draw Conclusions
+
+5、交流研究结果 Communicate
+（1）Blog post,paper,email,PowerPoint,in-person conversation
+（2）Data visualization is always useful
+
+关于顺序：
+
+1、数据再加工 和 数据探索 之间是相互交错的
+（1）初步加工，无法解决所有问题
+（2）在发现问题后才能针对问题进行处理
+（3）在探索时不断发现问题，从而返回再加工处理
+
+2、在整个过程中，随着对数据的不断熟悉，可能需要不时地返回第一阶段并改进问题
+
+3、有时候，是在数据采集之后才会提出问题
+（1）如发布新的数据集时，会先采集处理，观察数据后再提出能够利用这个数据回答的一些问题
+
+
+数据采集 Data Acquisition
+1、下载数据文件 Downloading files
+2、从API中获取数据 Accessing an API
+3、从网页中收集数据  Scraping a web page
+4、对多种不同格式的数据进行合并 Combine data from different formats
+
+CSV-Comma Seperated Values 逗号分隔值
+1、Like a spreadsheet with no format
+2、Easy to process with code (unlike .xlsx)
