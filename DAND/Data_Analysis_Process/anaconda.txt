@@ -1,0 +1,50 @@
+将环境中的包的列表导出为文件，然后将该文件与代码包括在一起。这能让其他人轻松加载代码的所有依赖项。pip 提供了类似的功能，即 pip freeze > requirements.txt
+
+
+管理包：
+
+conda install package_name  安装包 （例如要安装numpy：conda install numpy）
+
+conda install package_name1 package_name2 pn3 可同时安装多个包 （如：conda install numpy scipy pandas）
+
+conda install numpy=1.10 安装指定版本的包
+
+conda会自动安装依赖项
+
+conda remove package_name 删除包
+conda update package_name 更新包
+conda update --all 更新所有的包
+
+conda list 列出已安装的包
+
+conda search search_term 不知道包的确切名称可如此搜索
+（如：conda search beautifulsoup）
+
+管理环境：
+
+conda create -n env_name list of packages 创建环境
+（-n是指名称，env_name是要设置的环境名称，list of packages是要安装在环境中的包的列表）
+
+例如：要创建名为my_env的环境并在其中安装numpy，输入conda create -n my_env numpy
+
+创建时可以指定python版本
+conda create -n py3 python=3 或
+conda create -n py2 python=2
+
+还可以指定特定版本的python
+conda create -n py python=3.3
+
+source activate env_name 进入环境 (OSX/Linux)
+activate env_name 进入环境 (Windows)
+
+source deactivate 离开环境 (OSX/Linux)
+deactivate 离开环境 (Windows)
+
+conda env export > environment.yaml 共享环境
+
+conda env create -f environment.yaml 通过环境文件创建环境
+
+conda env list 列出环境
+
+conda env remove -n env_name 删除指定的环境（在这里名为env_name）
+
